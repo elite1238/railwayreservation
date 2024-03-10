@@ -3,6 +3,7 @@ import datetime as d
 import time
 import random
 from email_validator import validate_email,EmailNotValidError
+#add your own mysql host,user,password,database
 mydb = mc.connect(
   host = "localhost",
   user = "root",
